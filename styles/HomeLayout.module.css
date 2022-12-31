@@ -1,0 +1,43 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: 300px;
+  width: 300px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 32px;
+}
+
+.textDiv {
+  width: 600px;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 1050px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+  }
+
+  .button {
+    z-index: 2;
+    max-height: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 32px;
+  }
+
+  .textDiv {
+    width: auto;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+}

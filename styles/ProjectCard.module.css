@@ -1,0 +1,8 @@
+@media screen and (max-width: 650px) {
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: 25px;
+  }
+}
