@@ -6,6 +6,7 @@ const ExperienceLayout = ({}: ExperienceLayoutProps) => {
   return (
     // ! Make it look like the projects page but with a single button
     <div
+      id="experience"
       style={{
         display: 'flex',
         flexDirection: 'column',

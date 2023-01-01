@@ -63,7 +63,16 @@ const NavBar = ({}: NavBarProps) => {
         </Navbar.Item>
 
         <Navbar.Item>
-          <Button auto shadow color="warning" ripple={false}>
+          <Button
+            auto
+            shadow
+            color="warning"
+            ripple={false}
+            onClick={() => {
+              const experience = document.getElementById('experience');
+              experience?.scrollIntoView({ behavior: 'smooth' });
+            }}
+          >
             Experience
           </Button>
         </Navbar.Item>
