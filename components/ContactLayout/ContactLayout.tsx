@@ -9,7 +9,7 @@ const ContactLayout = ({}: ContactLayoutProps) => {
   return (
     <div id="contact">
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <Text h1>Contacts</Text>
+        <Text h1>Contact Me</Text>
       </div>
 
       <hr style={{ marginLeft: '50px', marginRight: '50px', height: '2px' }} />

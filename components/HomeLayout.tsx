@@ -6,21 +6,21 @@ interface HomeLayoutProps {}
 const HomeLayout = ({}: HomeLayoutProps) => {
   return (
     <div className={styles.parent}>
-      <Button bordered color="secondary" auto className={styles.button}>
+      {/* <Button bordered color="secondary" auto className={styles.button}>
         Insert Self Portrait Here
-      </Button>
+      </Button> */}
 
       <div className={styles.textDiv}>
         <Text h4>
-          Hi. I am Pratham Patel. I currently attend Georgia State University as
-          a computer science major. I taught myself how to code in high school
-          and have kept up with it since then. My favorite technologies are
-          TypeScript, React, GraphQL, and Node.js. I am currently learning how
-          to create a server on a Linux virtual machine to which I can deploy my
-          projects. Until then, Heroku will do. My goals for this year are to
-          learn about Web 3.0 and blockchain. I also want to learn about
-          artificial intelligence, but I have been putting that off until I
-          complete the proper math prerequisites.
+          Hi. I am Pratham Patel. I currently attend The Georgia Institute of
+          Technology as a double math and computer science major. I taught
+          myself how to code in high school and have kept up with it since then.
+          My favorite technologies are TypeScript, React, GraphQL, and Node.js.
+          I am currently learning how to create a server on a Linux virtual
+          machine to which I can deploy my projects. Until then, Heroku will do.
+          My goals for this year are to learn about Web 3.0 and blockchain. I
+          also want to learn about artificial intelligence, but I have been
+          putting that off until I complete the proper math prerequisites.
         </Text>
       </div>
     </div>

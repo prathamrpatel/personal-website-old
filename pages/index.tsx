@@ -12,7 +12,7 @@ const Index: NextPage = () => {
       <HomeLayout />
       <ProjectLayout />
       <ContactLayout />
-      <ExperienceLayout />
+      {/* <ExperienceLayout /> */}
     </>
   );
 };
