@@ -4,7 +4,7 @@ import NextLink from 'next/link';
 interface NavBarProps {}
 
 const NavBar = ({}: NavBarProps) => {
-  const collapseItems = ['Home', 'Projects', 'Experience', 'Contact'];
+  const collapseItems = ['Home', 'Projects', 'Contact'];
 
   return (
     <Navbar isBordered variant="sticky">
@@ -62,7 +62,7 @@ const NavBar = ({}: NavBarProps) => {
           </Button>
         </Navbar.Item>
 
-        <Navbar.Item>
+        {/* <Navbar.Item>
           <Button
             auto
             shadow
@@ -75,7 +75,7 @@ const NavBar = ({}: NavBarProps) => {
           >
             Experience
           </Button>
-        </Navbar.Item>
+        </Navbar.Item> */}
 
         <Navbar.Item>
           <Button
